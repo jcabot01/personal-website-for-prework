@@ -1,3 +1,94 @@
-#grad {
-    background-image: linear-gradient(to bottom right, rgb(167, 6, 167), yellow);
+body {
+    background-image: url('docs/assets/Peach Graphic Designer Portfolio Website (2).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: auto;
+}
+nav {  
+    height: 15px;
+    padding-top: 100px;
+    border-radius: 50px;
+  }
+h1 {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    margin-top: 0%;
+    padding-left: 60px; 
+
+}
+h4 {
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    padding-left: 20px; 
+  }
+ul {
+    position: absolute;
+    width: 100%;
+    background-color: #ffa46B;
+  }
+.home {
+  margin-right: 70px;
+}
+  li {
+    float: right;
+    display: block;
+    color: #ffa46B;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a:hover {
+    background-color: gray;
+  }
+  
+  a {
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 8px;
+    background-color: #ffa46B;;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  .pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 200px;
+    margin-right: 100px;
+    border-radius: 40px;
+  }
+  .slides {
+    size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 200px;
+    margin-right: 100px;
+    border-radius: 40px;
   }
