@@ -13,7 +13,7 @@ nav {
     float: left;
     height: 10px;
     margin-top: 80px;
-    padding-top: 50px;
+    padding-top: 40px;
     border-radius: 50px;
     list-style: none;
     border-width: 1px 0;
@@ -89,25 +89,25 @@ li {
     border-radius: 50%;
   }
   .tiles1 {
-    margin-top: 200px;
-    margin-left: 100px;
+    margin-top: 235px;
+    margin-left: 85px;
     position:absolute;
     display: block;
   }
   .tiles2 {
-    margin-top: 200px;
-    margin-left: 230px;
+    margin-top: 235px;
+    margin-left: 215px;
     position:absolute;
   }
   .tiles3 {
-    margin-top: 410px;
-    margin-left: 230px;
+    margin-top: 440px;
+    margin-left: 215px;
     position:absolute;
     display: block;
   }
   .tiles4 {
-    margin-top: 410px;
-    margin-left: 100px;
+    margin-top: 440px;
+    margin-left: 85px;
     position:absolute;
     display: block;
   }
@@ -120,8 +120,15 @@ li {
     display: flex;
     opacity: 0;
     flex-direction: column;
-    
   }  
+  .click-me {
+    color: rgba(255, 255, 255, 0.856);
+    font-family: 'Arvo', serif;
+    font-size: 12px;
+    margin-top: 215px;
+    margin-left: 85px;
+
+  }
   .tiles1:hover .icon-text {
     opacity: 1;
   }
