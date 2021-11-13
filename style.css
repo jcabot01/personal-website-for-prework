@@ -3,15 +3,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     image-rendering: auto;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
 }
-nav {  
+    nav {  
     height: 15px;
-    padding-top: 100px;
+    padding-top: 130px;
     border-radius: 50px;
   }
 h1 {
     font-family: 'Open Sans', sans-serif;;
-    font-size: 80px;
+    font-size: 7em;
     color: white;
     position: absolute;
     margin-top: 0%;
@@ -25,7 +33,7 @@ h4 {
     position: absolute;
     text-align: center;
     margin: auto;
-    padding-left: 20px; 
+    padding-left: 50px; 
   }
 ul {
     position: absolute;
@@ -33,7 +41,7 @@ ul {
     background-color: #ffa46B;
   }
 .home {
-  margin-right: 70px;
+  margin-right: 200px;
 }
   li {
     float: right;
@@ -58,7 +66,7 @@ ul {
     color: white;
     display: block;
     padding: 8px;
-    background-color: #ffa46B;;
+    background-color: #ffa46B;
   }
   a:link {
     text-decoration: none;
@@ -79,37 +87,53 @@ ul {
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 230px;
-    margin-right: 100px;
+    margin-top: 200px;
+    margin-right: 30%;
     border-radius: 40px;
   }
   .tiles1 {
-    margin-top: 230px;
+    margin-top: 200px;
     margin-left: 100px;
     position:absolute;
   }
   .tiles2 {
-    margin-top: 230px;
+    margin-top: 200px;
     margin-left: 350px;
     position:absolute;
+    display: block;
   }
   .tiles3 {
-    margin-top: 440px;
+    margin-top: 550px;
     margin-left: 100px;
     position:absolute;
+    display: block;
   }
   .tiles4 {
-    margin-top: 440px;
+    margin-top: 550px;
     margin-left: 350px;
     position:absolute;
+    display: block;
   }
   .icon-text {
     font-family: 'Arvo', serif;
-    font-size: 20px;
-    color: white;
+    font-size: 1.16em;
+    color: rgba(255, 255, 255, 0.856);
     position: absolute;
     text-align: center;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: center;
   }  
-  
-
-  
+  .tiles1:hover .icon-text {
+    opacity: 1;
+  }
+  .tiles2:hover .icon-text {
+    opacity: 1;
+  }
+  .tiles3:hover .icon-text {
+    opacity: 1;
+  }
+  .tiles4:hover .icon-text {
+    opacity: 1;
+  }
